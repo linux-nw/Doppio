@@ -1,6 +1,6 @@
-# KaffeeSync
+# Doppio
 
-KaffeeSync is a multi-page static website showcasing coffee varieties, recipes, shop info, and a simple review system. Built with HTML, CSS, and PHP for demonstration and learning purposes only — not intended for production or commercial use.
+Doppio is a multi-page static website showcasing coffee varieties, recipes, shop info, and a simple review system. Built with HTML, CSS, and PHP for demonstration and learning purposes only — not intended for production or commercial use.
 
 ## Features
 - About, Shop, Contact, Recipes pages  
@@ -16,6 +16,7 @@ KaffeeSync is a multi-page static website showcasing coffee varieties, recipes, 
 ## Notes
 - No real backend or database; reviews saved locally via `reviews.json` and `save_review.php`  
 - Designed as a concept/demo, not for live deployment  
+- Concept/demo project: the company "Doppio GmbH" and its contact data are fictional.
 
 ## License
 MIT License
