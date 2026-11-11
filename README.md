@@ -17,6 +17,7 @@ Doppio is a multi-page static website showcasing coffee varieties, recipes, shop
 - No real backend or database; reviews saved locally via `reviews.json` and `save_review.php`  
 - Designed as a concept/demo, not for live deployment  
 - Concept/demo project: the company "Doppio GmbH" and its contact data are fictional.
+- Only own or AI-generated images are included in this repository; recipe photos, backgrounds and other photos are placeholders.
 
 ## License
 MIT License
