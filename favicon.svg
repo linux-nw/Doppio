@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="74 28 120 120" width="512" height="512" role="img">
+  <title>Doppio</title>
+  <circle cx="130" cy="88" r="46" fill="#E2CFAF" stroke="#C9B28C" stroke-width="1"/>
+  <rect x="158" y="80" width="26" height="16" rx="8" fill="#4A2C1A"/>
+  <circle cx="130" cy="88" r="34" fill="#4A2C1A"/>
+  <circle cx="130" cy="88" r="28" fill="#A8693A"/>
+  <path d="M130 107.6 C98.1 84.4 112.6 61.2 130 78.6 C147.4 61.2 161.9 84.4 130 107.6 Z" fill="#D4A06A"/>
+  <path d="M130 104.9 C102.5 84.9 115 64.9 130 79.9 C145 64.9 157.5 84.9 130 104.9 Z" fill="#F3E7D3"/>
+  <path d="M130 96.1 C116.8 86.5 122.8 76.9 130 84.1 C137.2 76.9 143.2 86.5 130 96.1 Z" fill="#D4A06A"/>
+</svg>
