@@ -1,3 +1,5 @@
+<p align="center"><img src="images/FullLogo.png" alt="Doppio" width="220"></p>
+
 # Doppio
 
 Doppio is a multi-page static website showcasing coffee varieties, recipes, shop info, and a simple review system. Built with HTML, CSS, and PHP for demonstration and learning purposes only — not intended for production or commercial use.
