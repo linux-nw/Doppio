@@ -1,26 +1,38 @@
-<p align="center"><img src="images/FullLogo.png" alt="Doppio" width="220"></p>
-
 # Doppio
 
-Doppio is a multi-page static website showcasing coffee varieties, recipes, shop info, and a simple review system. Built with HTML, CSS, and PHP for demonstration and learning purposes only — not intended for production or commercial use.
+**Status:** ✅ Abgeschlossen (Demo-Projekt)
 
-## Features
-- About, Shop, Contact, Recipes pages  
-- Review system saving user feedback (via PHP)  
-- Coffee product images and descriptions  
-- Responsive design basics  
+Mehrseitige Kaffee-Website mit Sorten, Rezepten, Shop-Infos und einem einfachen Bewertungssystem (HTML, CSS, PHP). Ein Konzept zum Lernen, nicht für den Live-Betrieb. Die Firma "Doppio GmbH", ihre Kontaktdaten und die Fotos sind Platzhalter.
 
-## Installation
-1. Clone or download the repo  
-2. Host on a local or remote server with PHP support  
-3. Access via browser  
+**Name:** Doppio ist italienisch für "doppelt", wie beim doppelten Espresso.
 
-## Notes
-- No real backend or database; reviews saved locally via `reviews.json` and `save_review.php`  
-- Designed as a concept/demo, not for live deployment  
-- **Demo only: do not run `save_review.php` on a public server.** It writes unauthenticated, unlimited input to `reviews.json` (no login, no size limit, no file locking, no spam protection). Use it only locally.
-- Concept/demo project: the company "Doppio GmbH" and its contact data are fictional.
-- Only own or AI-generated images are included in this repository; recipe photos, backgrounds and other photos are placeholders.
+---
 
-## License
-MIT License
+## Nutzung
+
+Auf einem Server mit PHP ausliefern, lokal zum Beispiel mit `php -S localhost:8000`, und im Browser öffnen.
+
+Nicht auf einem öffentlichen Server betreiben: `save_review.php` schreibt Eingaben ohne Login, ohne Größenlimit und ohne Spam-Schutz in `reviews.json`.
+
+---
+
+## Repo-Struktur
+
+```
+index.html, About.html, Shop.html, Contact.html, rezepte.html   Seiten
+stylesheet.css                                                  Gestaltung
+save_review.php, reviews.json                                   Bewertungen
+images/                                                         eigene oder KI-generierte Bilder
+```
+
+---
+
+## Datenschutz
+
+Keine Datenbank und keine Konten. Bewertungen landen unverschlüsselt in `reviews.json` auf dem Server. Deshalb nur lokal verwenden.
+
+---
+
+## Lizenz
+
+[MIT](LICENSE)
