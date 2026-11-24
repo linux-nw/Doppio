@@ -1,38 +1,38 @@
 # Doppio
 
-**Status:** ✅ Abgeschlossen (Demo-Projekt)
+**Status:** ✅ Completed (demo project)
 
-Mehrseitige Kaffee-Website mit Sorten, Rezepten, Shop-Infos und einem einfachen Bewertungssystem (HTML, CSS, PHP). Ein Konzept zum Lernen, nicht für den Live-Betrieb. Die Firma "Doppio GmbH", ihre Kontaktdaten und die Fotos sind Platzhalter.
+Multi-page coffee website with varieties, recipes, shop info and a simple review system (HTML, CSS, PHP). A concept for learning, not for live use. The company "Doppio GmbH", its contact details and the photos are placeholders.
 
-**Name:** Doppio ist italienisch für "doppelt", wie beim doppelten Espresso.
-
----
-
-## Nutzung
-
-Auf einem Server mit PHP ausliefern, lokal zum Beispiel mit `php -S localhost:8000`, und im Browser öffnen.
-
-Nicht auf einem öffentlichen Server betreiben: `save_review.php` schreibt Eingaben ohne Login, ohne Größenlimit und ohne Spam-Schutz in `reviews.json`.
+**Name:** Doppio is Italian for "double", as in a double espresso.
 
 ---
 
-## Repo-Struktur
+## Usage
+
+Serve it on a server with PHP, locally for example with `php -S localhost:8000`, and open it in the browser.
+
+Do not run it on a public server: `save_review.php` writes input to `reviews.json` without a login, without a size limit and without spam protection.
+
+---
+
+## Repo structure
 
 ```
-index.html, About.html, Shop.html, Contact.html, rezepte.html   Seiten
-stylesheet.css                                                  Gestaltung
-save_review.php, reviews.json                                   Bewertungen
-images/                                                         eigene oder KI-generierte Bilder
+index.html, About.html, Shop.html, Contact.html, rezepte.html   pages
+stylesheet.css                                                  styling
+save_review.php, reviews.json                                   reviews
+images/                                                         own or AI-generated images
 ```
 
 ---
 
-## Datenschutz
+## Privacy
 
-Keine Datenbank und keine Konten. Bewertungen landen unverschlüsselt in `reviews.json` auf dem Server. Deshalb nur lokal verwenden.
+No database and no accounts. Reviews are stored unencrypted in `reviews.json` on the server. That is why it should only be used locally.
 
 ---
 
-## Lizenz
+## License
 
 [MIT](LICENSE)
