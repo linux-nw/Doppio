@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $rating = htmlspecialchars($data['rating']);
     $review = htmlspecialchars($data['review']);
 
-    // Bewertungen in einer JSON-Datei speichern
+    // Store reviews in a JSON file
     $filePath = 'reviews.json';
     $reviews = [];
 

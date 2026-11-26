@@ -476,19 +476,19 @@
              fetch('reviews.json') 
                  .then(res => {
                      if (!res.ok) {
-                         throw new Error('Netzwerkantwort war nicht ok: ' + res.statusText);
+                         throw new Error('Network response was not ok: ' + res.statusText);
                      }
                      return res.json();
                  })
                  .then(reviews => {
                      const allRatings = reviews.map(item => parseInt(item.rating, 10));
                      const averageRating = allRatings.reduce((a, b) => a + b, 0) / allRatings.length;
-                     console.log('Alle Ratings:', allRatings);
-                     console.log('Durchschnitt:', averageRating);
+                     console.log('All ratings:', allRatings);
+                     console.log('Average:', averageRating);
          
                      document.getElementById('average-rating').innerText += averageRating.toFixed(2); 
                  })
-                 .catch(err => console.error('Fehler beim Abrufen der Daten:', err));
+                 .catch(err => console.error('Error fetching data:', err));
          });
       </script>
         <div id="top-reviews"></div>
@@ -512,7 +512,7 @@
          });
          
                  })
-                 .catch(err => console.error('Fehler beim Abrufen der Bewertungen:', err));
+                 .catch(err => console.error('Error fetching reviews:', err));
          });
       </script>
         <p class="space"></p>
