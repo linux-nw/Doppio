@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600">
+  <!-- Abstract equirectangular grid with the coffee belt (between the tropics) and typical growing regions. -->
+  <rect width="1200" height="600" fill="#f6efe4"/>
+  <rect y="230" width="1200" height="140" fill="#b49262" opacity="0.35"/>
+  <g stroke="#6b4423" stroke-opacity="0.18" stroke-width="1" fill="none">
+    <path d="M0 100H1200M0 200H1200M0 300H1200M0 400H1200M0 500H1200"/>
+    <path d="M100 0V600M200 0V600M300 0V600M400 0V600M500 0V600M600 0V600M700 0V600M800 0V600M900 0V600M1000 0V600M1100 0V600"/>
+  </g>
+  <g stroke="#6b4423" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="6 6">
+    <path d="M0 230H1200M0 370H1200"/>
+  </g>
+  <path d="M0 300H1200" stroke="#6b4423" stroke-opacity="0.35" stroke-width="2"/>
+  <g fill="#6b4423">
+    <circle cx="300" cy="255" r="11"/>
+    <circle cx="350" cy="285" r="11"/>
+    <circle cx="450" cy="360" r="11"/>
+    <circle cx="730" cy="276" r="11"/>
+    <circle cx="723" cy="301" r="11"/>
+    <circle cx="930" cy="294" r="11"/>
+  </g>
+  <g fill="none" stroke="#6b4423" stroke-opacity="0.35" stroke-width="2">
+    <circle cx="300" cy="255" r="20"/>
+    <circle cx="350" cy="285" r="20"/>
+    <circle cx="450" cy="360" r="20"/>
+    <circle cx="730" cy="276" r="20"/>
+    <circle cx="723" cy="301" r="20"/>
+    <circle cx="930" cy="294" r="20"/>
+  </g>
+</svg>
