@@ -35,4 +35,4 @@ No database and no accounts. Reviews are stored unencrypted in `reviews.json` on
 
 ## License
 
-[MIT](LICENSE)
+[PolyForm Noncommercial 1.0.0](LICENSE). Personal and non-commercial use is free. For commercial use, please get in touch.
